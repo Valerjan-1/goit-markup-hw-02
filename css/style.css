@@ -1,20 +1,38 @@
 body {
-  background: #e5e5e5;
+  background-color: #e5e5e5;
   font-family: "roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
-  color: #2e2f42;
+}
+ul {
+  list-style-type: none;
 }
 
 :root {
-  --color-text: #434455;
+  --color-text-paragraph: #434455;
+}
+:root {
+  --color-text-header: #2e2f42;
 }
 :root {
   --font-weight: 500;
 }
+.logo {
+  color: var(--color-text-header);
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+.color-logo {
+  color: #4d5ae5;
+}
 
 .menu a {
-  color: var(--color-text);
+  color: var(--color-text-header);
   font-weight: var(--font-weight);
   font-style: normal;
   font-size: 16px;
@@ -26,18 +44,11 @@ body {
   color: #404bbf;
   text-decoration: underline;
 }
-.logo {
-  font-family: "Raleway";
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  text-transform: uppercase;
-}
 
 .contacts {
   text-decoration: none;
   font-style: normal;
-  color: var(--color-text);
+  color: var(--color-text-paragraph);
   font-size: 16px;
   line-height: 1.5;
 }
@@ -45,6 +56,18 @@ body {
 .contacts:focus {
   color: #404bbf;
   text-decoration: none;
+}
+.main-btn {
+  color: #ffffff;
+  padding: 16px 32px;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.main-btn:hover,
+main-btn:focus {
+  background: #404bbf;
 }
 .btn {
   height: 48px;
@@ -57,6 +80,7 @@ body {
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   text-align: center;
+  letter-spacing: 0.04em;
 }
 
 .btn:hover,
@@ -64,13 +88,26 @@ btn:focus {
   background: #404bbf;
   color: #ffffff;
 }
+.header-hidden {
+  visibility: hidden;
+}
+.section-name {
+  font-size: 36px;
+  line-height: 1.111;
+  text-transform: capitalize;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
 .projects {
+  color: var(--color-text-header);
   font-size: 20px;
   font-weight: var(--font-weight);
-  letter-spacing: 1.2;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .categories {
-  color: var(--color-text);
+  color: var(--color-text-paragraph);
   font-size: 16px;
   line-height: 1.5;
 }
