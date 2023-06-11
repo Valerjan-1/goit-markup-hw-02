@@ -2,12 +2,15 @@ body {
   background-color: var(--bg-color);
   font-family: "Roboto", sans-serif;
   color: #434455;
-  font-style: normal;
   font-weight: 400;
+}
+.link {
+  text-decoration: none;
 }
 .list {
   list-style: none;
 }
+
 :root {
   --bg-color: #ffffff;
 }
@@ -30,30 +33,28 @@ body {
   font-size: 18px;
   line-height: 1.17;
   text-transform: uppercase;
-  text-decoration: none;
   letter-spacing: 0.03em;
 }
 .color-logo {
   color: var(--color-text-header);
 }
 
-.list-menu a {
+.list-menu {
   color: var(--color-text-header);
   font-weight: var(--font-weight);
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
-  text-decoration: none;
 }
-.list-menu a:hover,
-.list-menu a:focus {
+.list-menu :hover,
+.list-menu :focus {
   color: #404bbf;
   text-decoration: underline;
 }
-
-.list-contacts {
-  text-decoration: none;
+.contacts {
   font-style: normal;
+}
+.list-contacts {
   color: var(--color-text-paragraph);
   font-size: 16px;
   line-height: 1.5;
@@ -62,8 +63,8 @@ body {
 .list-contacts:hover,
 .list-contacts:focus {
   color: #404bbf;
-  text-decoration: none;
 }
+
 .main-btn {
   color: #ffffff;
   background: #4d5ae5;
