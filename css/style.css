@@ -5,8 +5,8 @@ body {
   font-style: normal;
   font-weight: 400;
 }
-ul {
-  list-style-type: none;
+.list {
+  list-style: none;
 }
 :root {
   --bg-color: #ffffff;
@@ -18,11 +18,14 @@ ul {
   --color-text-header: #2e2f42;
 }
 :root {
+  --color-logo-link: #4d5ae5;
+}
+:root {
   --font-weight: 500;
 }
-.logo {
-  color: var(--color-text-header);
-  font-family: "Raleway";
+.link-logo {
+  color: var(--color-logo-link);
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -31,10 +34,10 @@ ul {
   letter-spacing: 0.03em;
 }
 .color-logo {
-  color: #4d5ae5;
+  color: var(--color-text-header);
 }
 
-.menu a {
+.list-menu a {
   color: var(--color-text-header);
   font-weight: var(--font-weight);
   font-style: normal;
@@ -42,21 +45,22 @@ ul {
   line-height: 1.5;
   text-decoration: none;
 }
-.menu a:hover,
-.menu a:focus {
+.list-menu a:hover,
+.list-menu a:focus {
   color: #404bbf;
   text-decoration: underline;
 }
 
-.contacts {
+.list-contacts {
   text-decoration: none;
   font-style: normal;
   color: var(--color-text-paragraph);
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-.contacts:hover,
-.contacts:focus {
+.list-contacts:hover,
+.list-contacts:focus {
   color: #404bbf;
   text-decoration: none;
 }
