@@ -1,13 +1,16 @@
 body {
-  background-color: #e5e5e5;
-  font-family: "roboto", sans-serif;
+  background-color: var(--bg-color);
+  font-family: "Roboto", sans-serif;
+  color: #434455;
   font-style: normal;
   font-weight: 400;
 }
 ul {
   list-style-type: none;
 }
-
+:root {
+  --bg-color: #ffffff;
+}
 :root {
   --color-text-paragraph: #434455;
 }
@@ -59,9 +62,9 @@ ul {
 }
 .main-btn {
   color: #ffffff;
-  padding: 16px 32px;
+
   background: #4d5ae5;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
   border-radius: 4px;
   cursor: pointer;
 }
@@ -70,15 +73,13 @@ main-btn:focus {
   background: #404bbf;
 }
 .btn {
-  height: 48px;
-  padding: 12px 24px;
   background: #f4f4fd;
   cursor: pointer;
   font-size: 16px;
   line-height: 1.5;
   color: #4d5ae5;
   border: 1px solid #e7e9fc;
-  border-radius: 4px;
+
   text-align: center;
   letter-spacing: 0.04em;
 }
