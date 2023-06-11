@@ -62,10 +62,7 @@ ul {
 }
 .main-btn {
   color: #ffffff;
-
   background: #4d5ae5;
-
-  border-radius: 4px;
   cursor: pointer;
 }
 .main-btn:hover,
@@ -78,8 +75,6 @@ main-btn:focus {
   font-size: 16px;
   line-height: 1.5;
   color: #4d5ae5;
-  border: 1px solid #e7e9fc;
-
   text-align: center;
   letter-spacing: 0.04em;
 }
