@@ -34,6 +34,7 @@ body {
   line-height: 1.17;
   text-transform: uppercase;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .color-logo {
   color: var(--color-text-header);
@@ -109,8 +110,9 @@ btn:focus {
   visibility: hidden;
 }
 .section-name {
+  color: var(--color-text-header);
   font-size: 36px;
-  line-height: 1.111;
+  line-height: 1.11;
   text-transform: capitalize;
   font-weight: 700;
   text-align: center;
@@ -127,8 +129,23 @@ btn:focus {
   color: var(--color-text-paragraph);
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.team {
+  background-color: #f4f4fd;
+}
+.team-foto {
+  background-color: #ffffff;
+}
+.bg-footer {
+  background-color: var(--color-text-header);
 }
 .text-footer {
   font-size: 16px;
   line-height: 1.5;
+  color: #f4f4fd;
+  etter-spacing: 0.02em;
+}
+.color-logo-footer {
+  color: #f4f4fd;
 }
