@@ -92,11 +92,13 @@ body {
   color: var(--bg-color);
 }
 .btn {
-  background: #f4f4fd;
+  font-family: inherit;
+  background-color: #f4f4fd;
   cursor: pointer;
+  font-weight: var(--font-weight);
   font-size: 16px;
   line-height: 1.5;
-  color: #4d5ae5;
+  color: var(--color-logo-link);
   text-align: center;
   letter-spacing: 0.04em;
 }
